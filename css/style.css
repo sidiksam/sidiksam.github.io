@@ -9,7 +9,6 @@
 .mobile-nav {
   margin: 8px 18px;
   height: 48px;
-  width: 380px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +24,6 @@ nav img {
   align-items: center;
   margin: 8px 18px;
   height: 100vh;
-  width: 380px;
 }
 
 .social-media-icons {
