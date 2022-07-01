@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
   background: #191765;
-  color: #fff;
+}
+
+.johnDoe {
+  color: #c8c8d4;
 }
 
 .mobile-nav {
@@ -12,6 +15,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 375px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }
 
 nav img {
@@ -81,4 +90,123 @@ nav img {
   top: 100px;
   background: #edecff;
   filter: blur(50px);
+}
+
+.border {
+  border-bottom: 1px solid #646369;
+  width: 327px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  padding: 30px 0;
+  color: #c8c8d4;
+}
+
+.arrowDown {
+  padding-right: 10px;
+}
+
+.langeuageFramework {
+  display: flex;
+  color: #c8c8d4;
+}
+
+.langeuage {
+  padding-right: 100px;
+  line-height: 40px;
+}
+
+.framework {
+  line-height: 40px;
+}
+
+.skills {
+  line-height: 40px;
+  color: #c8c8d4;
+}
+
+ul li {
+  list-style: none;
+}
+
+.myRecentWork {
+  color: #9490ff;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.skill {
+  color: #9490ff;
+}
+
+.frame {
+  color: #9490ff;
+}
+
+.lang {
+  color: #9490ff;
+}
+
+.imagePlaceholder {
+  width: 327px;
+  height: 236px;
+}
+
+.multiplePost {
+  width: 327px;
+  height: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.supportingText {
+  width: 327px;
+  height: 204px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+  width: 312px;
+  height: 40px;
+  color: #fff;
+}
+
+.rectangle {
+  width: 1px;
+  height: 40px;
+  background: #555;
+}
+
+.seeProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  height: 50px;
+  color: #edecff;
+  background: #7d73fc;
+  margin-bottom: 40px;
 }
