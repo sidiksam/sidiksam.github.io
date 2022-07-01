@@ -164,6 +164,7 @@ ul li {
   height: 105px;
   font-style: normal;
   font-weight: 500;
+  font-family: Roboto, sans-serif;
   font-size: 32px;
   line-height: 44px;
   display: flex;
@@ -180,6 +181,7 @@ ul li {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
+  font-family: Roboto, sans-serif;
 }
 
 .tags {
@@ -209,4 +211,53 @@ ul li {
   color: #edecff;
   background: #7d73fc;
   margin-bottom: 40px;
+  outline: none;
+}
+
+.about {
+  width: 327px;
+  height: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+.myself {
+  width: 327px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  font-family: Roboto, sans-serif;
+}
+
+.letConnect {
+  font-weight: 500;
+  margin-top: 12px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7d73fc;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+.btnResune {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: #c8c8d4;
+  border: 1px solid #c8c8d4;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  outline: none;
 }
