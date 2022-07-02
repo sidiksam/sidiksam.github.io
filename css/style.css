@@ -7,6 +7,9 @@
 
 .johnDoe {
   color: #c8c8d4;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 4px 0 0 4px;
 }
 
 .mobile-nav {
@@ -18,27 +21,25 @@
   width: 375px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
-
 nav img {
   width: 30px;
+  display: grid;
+  margin-right: 15px;
 }
 
 .menu-section {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 8px 18px;
+  margin: 8px 23px;
   height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 8px 0 0 10px;
 }
 
 .social-media-icons {
   display: flex;
   list-style: none;
-  justify-content: center;
   gap: 19px;
   padding-top: 18px;
 }
@@ -102,7 +103,6 @@ nav img {
 .work {
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: larger;
   padding: 30px 0;
   color: #c8c8d4;
@@ -157,6 +157,7 @@ ul li {
 .imagePlaceholder {
   width: 327px;
   height: 236px;
+  display: grid;
 }
 
 .multiplePost {
@@ -189,7 +190,7 @@ ul li {
   flex-direction: row;
   align-items: center;
   padding: 25px;
-  gap: 20px;
+  gap: 18px;
   width: 312px;
   height: 40px;
   color: #fff;
@@ -260,4 +261,9 @@ ul li {
   margin-bottom: 30px;
   border-radius: 10px;
   outline: none;
+}
+
+section {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
 }
