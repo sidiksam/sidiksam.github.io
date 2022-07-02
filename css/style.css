@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
   background: #191765;
-  color: #fff;
+}
+
+.johnDoe {
+  color: #c8c8d4;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 4px 0 0 4px;
 }
 
 .mobile-nav {
@@ -12,24 +18,28 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 375px;
 }
 
 nav img {
   width: 30px;
+  display: grid;
+  margin-right: 15px;
 }
 
 .menu-section {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 8px 18px;
+  margin: 8px 23px;
   height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 8px 0 0 10px;
 }
 
 .social-media-icons {
   display: flex;
   list-style: none;
-  justify-content: center;
   gap: 19px;
   padding-top: 18px;
 }
@@ -81,4 +91,179 @@ nav img {
   top: 100px;
   background: #edecff;
   filter: blur(50px);
+}
+
+.border {
+  border-bottom: 1px solid #646369;
+  width: 327px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  padding: 30px 0;
+  color: #c8c8d4;
+}
+
+.arrowDown {
+  padding-right: 10px;
+}
+
+.langeuageFramework {
+  display: flex;
+  color: #c8c8d4;
+}
+
+.langeuage {
+  padding-right: 100px;
+  line-height: 40px;
+}
+
+.framework {
+  line-height: 40px;
+}
+
+.skills {
+  line-height: 40px;
+  color: #c8c8d4;
+}
+
+ul li {
+  list-style: none;
+}
+
+.myRecentWork {
+  color: #9490ff;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.skill {
+  color: #9490ff;
+}
+
+.frame {
+  color: #9490ff;
+}
+
+.lang {
+  color: #9490ff;
+}
+
+.imagePlaceholder {
+  width: 327px;
+  height: 236px;
+  display: grid;
+}
+
+.multiplePost {
+  width: 327px;
+  height: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.supportingText {
+  width: 327px;
+  height: 204px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  font-family: Roboto, sans-serif;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  gap: 18px;
+  width: 312px;
+  height: 40px;
+  color: #fff;
+}
+
+.rectangle {
+  width: 1px;
+  height: 40px;
+  background: #555;
+}
+
+.seeProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  height: 50px;
+  color: #edecff;
+  background: #7d73fc;
+  margin-bottom: 40px;
+  outline: none;
+}
+
+.about {
+  width: 327px;
+  height: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+.myself {
+  width: 327px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  font-family: Roboto, sans-serif;
+}
+
+.letConnect {
+  font-weight: 500;
+  margin-top: 12px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7d73fc;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+.btnResune {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: #c8c8d4;
+  border: 1px solid #c8c8d4;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  outline: none;
+}
+
+section {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
 }
