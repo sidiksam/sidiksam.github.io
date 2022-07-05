@@ -215,6 +215,7 @@ ul li {
   outline: none;
   border: none;
 }
+
 .seeProject:focus {
   outline: none;
   border: none;
@@ -311,7 +312,7 @@ section {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "Inter";
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -324,6 +325,7 @@ section {
 form {
   display: flex;
 }
+
 .textInput {
   background: #fff;
   width: 320px;
@@ -338,7 +340,7 @@ form {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "Inter";
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -360,7 +362,7 @@ form {
   left: 16px;
   right: 16px;
   top: calc(10%);
-  font-family: "Inter";
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -383,14 +385,14 @@ form {
   margin-bottom: 30px;
 }
 
+button:hover {
+  background: #2b2969;
+}
+
 textarea:focus,
 input:focus button:focus {
   border: none;
   outline: none;
-}
-
-button:hover {
-  background: #2b2969;
 }
 
 .liButton {
