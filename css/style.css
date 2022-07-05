@@ -213,6 +213,12 @@ ul li {
   background: #7d73fc;
   margin-bottom: 40px;
   outline: none;
+  border: none;
+}
+
+.seeProject:focus {
+  outline: none;
+  border: none;
 }
 
 .about {
@@ -266,4 +272,140 @@ ul li {
 section {
   display: grid;
   grid-template-rows: auto auto auto auto;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 327px;
+  height: 35px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+}
+
+.contactDiscription {
+  width: 337px;
+  height: 105px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dcdce8;
+}
+
+.textInput::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #81818c;
+}
+
+form {
+  display: flex;
+}
+
+.textInput {
+  background: #fff;
+  width: 320px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.emailInput::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #191765;
+}
+
+.textarea {
+  margin-top: 20px;
+  background: #fff;
+  width: 320px;
+}
+
+.textarea::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(10%);
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #81818c;
+}
+
+.formButton {
+  background-color: #7d73fc;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background: #2b2969;
+}
+
+button:active {
+  background-color: #5e42d8;
+}
+
+button:disabled {
+  background: #2a2b33;
+}
+
+textarea:focus,
+input:focus button:focus {
+  border: none;
+  outline: none;
+}
+
+.liButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
