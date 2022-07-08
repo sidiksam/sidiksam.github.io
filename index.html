@@ -10,6 +10,16 @@
   <body>
     <header>
       <nav>
+        <div class="navBar">
+          <a href="#">John Doe</a>
+
+          <div class="navMenu">
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <img src="/image/message.png" alt="" />
+          </div>
+        </div>
         <div class="mobile-nav">
           <p class="johnDoe">John Doe</p>
           <img class="image-nav" src="image/Menu.png" alt="No Image" />
@@ -19,13 +29,16 @@
     <section class="menu-section">
       <h1 class="laura">Laura John</h1>
       <p class="software-dev">Software Developer</p>
-      <p><img class="img-circle" src="image/circle.png" alt="" /></p>
-      <p class="content-section">
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
-      <p class="border"></p>
+      <div class="content">
+        <p class="content-section">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
+      <div class="borderSection">
+        <p class="border"></p>
+      </div>
       <!-- Work Section  -->
       <div class="langFrameSkill">
         <!-- Language -->
@@ -64,203 +77,283 @@
         </div>
       </div>
 
-      <p class="border"></p>
-      <ul class="social-media-icons">
-        <li>
-          <a href="#">
-            <img class="icon" src="image/github.png" alt="Github image" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="icon" src="image/Linkedin.png" alt="Linkedin image" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="icon" src="image/angelList.png" alt="Angellist image" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="icon" src="image/Twitter.png" alt="Twitter image" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="icon" src="image/Medium.png" alt="Medium image" />
-          </a>
-        </li>
-      </ul>
-      <p class="work">
-        <span><img class="arrowDown" src="image/ArrowDown.png" alt="" /></span
-        >Work
-      </p>
+      <div class="borderSection">
+        <p class="border"></p>
+      </div>
+      <div class="socialMediaAndWork">
+        <div class="mediaAndWork">
+          <div class="work topWork">
+            <p class="workSection">Work</p>
+            <img class="arrowDown" src="image/ArrowDown.png" alt="" />
+          </div>
+          <ul class="social-media-icons">
+            <li>
+              <a href="#">
+                <img class="icon" src="image/github.png" alt="Github image" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="icon"
+                  src="image/Linkedin.png"
+                  alt="Linkedin image"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="icon"
+                  src="image/angelList.png"
+                  alt="Angellist image"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="icon" src="image/Twitter.png" alt="Twitter image" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="icon" src="image/Medium.png" alt="Medium image" />
+              </a>
+            </li>
+          </ul>
+          <p class="work">
+            <span
+              ><img class="arrowDown" src="image/ArrowDown.png" alt="" /></span
+            >Work
+          </p>
+        </div>
+      </div>
       <!-- Work Section -->
       <section>
         <h3 class="myRecentWork">MY RECENT WORK</h3>
-        <p class="border"></p>
-
-        <div>
-          <div class="imagePlaceholder">
-            <img src="image/ImgPlaceholder.png" alt="" />
-          </div>
-          <h3 class="multiplePost">Multiple Post Stories</h3>
-          <div class="supportingText">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-          </div>
-          <ul class="tags">
-            <li>Css</li>
-            <li class="rectangle"></li>
-            <li>Html</li>
-            <li class="rectangle"></li>
-            <li>Bootstrap</li>
-            <li class="rectangle"></li>
-            <li>Ruby</li>
-          </ul>
-          <button type="button" class="seeProject">See Project</button>
+        <div class="borderSection">
+          <p class="border borderFull"></p>
         </div>
-
-        <div>
-          <div class="imagePlaceholder">
-            <img src="image/ImgPlaceholder.png" alt="" />
+        <!-- my recent work -->
+        <div class="worksList">
+          <div class="multipleAndImageHolder">
+            <div>
+              <img
+                class="imgPlaceholder"
+                src="image/ImgPlaceholder.png"
+                alt="My Recrnt Work "
+              />
+            </div>
+            <div class="">
+              <h3 class="multiplePost">Multiple Post Stories</h3>
+              <div class="supportingText">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+              </div>
+              <ul class="tags">
+                <li>Css</li>
+                <li class="rectangle"></li>
+                <li>Html</li>
+                <li class="rectangle"></li>
+                <li>Bootstrap</li>
+                <li class="rectangle"></li>
+                <li>Ruby</li>
+              </ul>
+              <button type="button" class="seeProject">See Project</button>
+            </div>
           </div>
-          <h3 class="multiplePost">Multiple Post Stories</h3>
-          <div class="supportingText">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
+          <div class="multipleAndImageHolder1">
+            <div>
+              <img
+                class="imgPlaceholder1"
+                src="image/ImgPlaceholder.png"
+                alt="My Recrnt Work "
+              />
+            </div>
+            <div class="multiPostAndText1">
+              <h3 class="multiplePost">Multiple Post Stories</h3>
+              <div class="supportingText">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+              </div>
+              <ul class="tags">
+                <li>Css</li>
+                <li class="rectangle"></li>
+                <li>Html</li>
+                <li class="rectangle"></li>
+                <li>Bootstrap</li>
+                <li class="rectangle"></li>
+                <li>Ruby</li>
+              </ul>
+              <button type="button" class="seeProject">See Project</button>
+            </div>
           </div>
-          <ul class="tags">
-            <li>Css</li>
-            <li class="rectangle"></li>
-            <li>Html</li>
-            <li class="rectangle"></li>
-            <li>Bootstrap</li>
-            <li class="rectangle"></li>
-            <li>Ruby</li>
-          </ul>
-          <button type="button" class="seeProject">See Project</button>
-        </div>
-        <div>
-          <div class="imagePlaceholder">
-            <img src="image/ImgPlaceholder.png" alt="" />
+          <div class="multipleAndImageHolder">
+            <div>
+              <img
+                class="imgPlaceholder"
+                src="image/ImgPlaceholder.png"
+                alt="My Recrnt Work "
+              />
+            </div>
+            <div class="">
+              <h3 class="multiplePost">Multiple Post Stories</h3>
+              <div class="supportingText">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+              </div>
+              <ul class="tags">
+                <li>Css</li>
+                <li class="rectangle"></li>
+                <li>Html</li>
+                <li class="rectangle"></li>
+                <li>Bootstrap</li>
+                <li class="rectangle"></li>
+                <li>Ruby</li>
+              </ul>
+              <button type="button" class="seeProject">See Project</button>
+            </div>
           </div>
-          <h3 class="multiplePost">Multiple Post Stories</h3>
-          <div class="supportingText">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
+          <div class="multipleAndImageHolder1">
+            <div>
+              <img
+                class="imgPlaceholder1"
+                src="image/ImgPlaceholder.png"
+                alt="My Recrnt Work "
+              />
+            </div>
+            <div class="multiPostAndText1">
+              <h3 class="multiplePost">Multiple Post Stories</h3>
+              <div class="supportingText">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  standard dummy text.
+                </p>
+              </div>
+              <ul class="tags">
+                <li>Css</li>
+                <li class="rectangle"></li>
+                <li>Html</li>
+                <li class="rectangle"></li>
+                <li>Bootstrap</li>
+                <li class="rectangle"></li>
+                <li>Ruby</li>
+              </ul>
+              <button type="button" class="seeProject">See Project</button>
+            </div>
           </div>
-          <ul class="tags">
-            <li>Css</li>
-            <li class="rectangle"></li>
-            <li>Html</li>
-            <li class="rectangle"></li>
-            <li>Bootstrap</li>
-            <li class="rectangle"></li>
-            <li>Ruby</li>
-          </ul>
-          <button type="button" class="seeProject">See Project</button>
-        </div>
-        <div>
-          <div class="imagePlaceholder">
-            <img src="image/ImgPlaceholder.png" alt="" />
-          </div>
-          <h3 class="multiplePost">Multiple Post Stories</h3>
-          <div class="supportingText">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-          </div>
-          <ul class="tags">
-            <li>Css</li>
-            <li class="rectangle"></li>
-            <li>Html</li>
-            <li class="rectangle"></li>
-            <li>Bootstrap</li>
-            <li class="rectangle"></li>
-            <li>Ruby</li>
-          </ul>
-          <button type="button" class="seeProject">See Project</button>
         </div>
       </section>
-      <!-- About -->
-      <div>
-        <h3 class="about">About Myself</h3>
-        <p class="myself">
-          Hello I am a software developer! I can help you build a
-          product,feature or website look through some of my work and
-          experience! if you like what you see and have a project you need
-          coded, don't hesitate to contact me.
-        </p>
-        <p class="letConnect">Let's Connect</p>
-        <button type="button" class="btnResune">Get my esume</button>
-      </div>
-
       <div>
         <h3 class="contact">CONTACT US</h3>
-        <p class="contactDiscription">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
+        <div class="discripContact">
+          <p class="contactDiscription">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
       </div>
       <!-- Form section -->
-      <form action="https://formspree.io/f/mgedjawk" method="post">
-        <ul>
-          <li>
-            <input
-              class="textInput"
-              required
-              maxlength="30"
-              type="text"
-              placeholder="Text input"
-              id="name"
-              name="userName"
-            />
-          </li>
-          <li>
-            <input
-              class="emailInput textInput"
-              required
-              placeholder="jeremy@gmail.com"
-              type="email"
-              id="email"
-              name="userEmail"
-            />
-          </li>
-          <li>
-            <textarea
-              class="textarea"
-              required
-              rows="10"
-              cols="50"
-              maxlength="500"
-              placeholder="Enter text here"
-              id="message"
-              name="userMessage"
-            ></textarea>
-          </li>
-          <li class="liButton">
-            <button class="formButton" type="submit">See Project</button>
-          </li>
-        </ul>
-      </form>
+      <div class="formSection">
+        <form action="https://formspree.io/f/mgedjawk" method="post">
+          <ul>
+            <li>
+              <input
+                class="textInput"
+                required
+                maxlength="30"
+                type="text"
+                placeholder="Text input"
+                id="name"
+                name="userName"
+              />
+            </li>
+            <li>
+              <input
+                class="emailInput textInput"
+                required
+                placeholder="jeremy@gmail.com"
+                type="email"
+                id="email"
+                name="userEmail"
+              />
+            </li>
+            <li>
+              <textarea
+                class="textarea"
+                required
+                rows="10"
+                cols="50"
+                maxlength="500"
+                placeholder="Enter text here"
+                id="message"
+                name="userMessage"
+              ></textarea>
+            </li>
+            <li class="liButton">
+              <button class="formButton" type="submit">Send</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <ul class="social-media-icons">
+            <li>
+              <a href="https://github.com/sidiksam">
+                <img class="icon" src="image/github.png" alt="Github image" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abu-bakarr-samura-749753241/"
+              >
+                <img
+                  class="icon"
+                  src="image/Linkedin.png"
+                  alt="Linkedin image"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://angel.co">
+                <img
+                  class="icon"
+                  src="image/angelList.png"
+                  alt="Angellist image"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/SidikSamura">
+                <img class="icon" src="image/Twitter.png" alt="Twitter image" />
+              </a>
+            </li>
+            <li>
+              <a href="medium.com">
+                <img class="icon" src="image/Medium.png" alt="Medium image" />
+              </a>
+            </li>
+            <li>samuraabu03@gmail.com</li>
+          </ul>
+        </div>
+      </footer>
     </section>
   </body>
 </html>
