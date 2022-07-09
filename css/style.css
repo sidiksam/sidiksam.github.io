@@ -7,6 +7,7 @@
   padding: 0;
   background: #191765;
   box-sizing: border-box;
+  transition-duration: 0ms;
 }
 
 /* Mobile version */
@@ -822,6 +823,22 @@
     align-items: center;
     text-align: center;
     color: #9390ff;
+    animation-duration: 3s;
+    animation-name: contact;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes contact {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .discripContact {
@@ -842,6 +859,10 @@
     line-height: 32px;
     text-align: center;
     color: #dcdce8;
+    animation-duration: 3s;
+    animation-name: contact;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
   .textInput {
@@ -931,6 +952,7 @@
 
   button:hover {
     background: #2b2969;
+    transition: all 0.5s ease-out;
   }
 
   button:active {
