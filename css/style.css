@@ -7,6 +7,7 @@
   padding: 0;
   background: #191765;
   box-sizing: border-box;
+  transition-duration: 0ms;
 }
 
 /* Mobile version */
@@ -22,7 +23,7 @@
   }
 
   .image-nav {
-    width: 4vh;
+    width: 8vw;
     height: 4vh;
   }
 
@@ -78,11 +79,15 @@
     font-style: normal;
     font-family: "Roboto", sans-serif;
   }
-
-  .content-section {
-    width: 40vh;
+  
+  .content{
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  .content-section {
+    width: 80vw;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -95,7 +100,7 @@
 
   .border {
     border-bottom: 1px solid #646369;
-    width: 40vh;
+    width: 85vw;
     padding-top: 30px;
     margin-bottom: 30px;
   }
@@ -149,6 +154,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 52px;
+    
   }
 
   .skill {
@@ -164,13 +170,13 @@
   }
 
   .imgPlaceholder {
-    width: 41.5vh;
+    width: 88vw;
     height: 28vh;
     background: linear-gradient(0deg, #fff, #fff);
   }
 
   .imgPlaceholder1 {
-    width: 41.5vh;
+    width: 88vw;
     height: 28vh;
     background: linear-gradient(0deg, #fff, #fff);
     flex: none;
@@ -211,7 +217,7 @@
     align-items: center;
     padding: 25px;
     gap: 18px;
-    width: 43vh;
+    width: 86vw;
     height: 40px;
     color: #fff;
     font-size: 14px;
@@ -264,7 +270,7 @@
   }
 
   .contactDiscription {
-    width: 43vh;
+    width: 86vw;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -299,7 +305,7 @@
 
   .textInput {
     background: #fff;
-    width: 43vh;
+    width: 88vw;
     height: 6vh;
     margin-top: 20px;
     margin-bottom: 2px;
@@ -324,7 +330,7 @@
   .textarea {
     margin-top: 20px;
     background: #fff;
-    width: 43vh;
+    width: 88vw;
   }
 
   .textarea::placeholder {
@@ -426,6 +432,13 @@
     color: #fff;
     text-decoration: none;
   }
+  .navMenu :hover{
+    background: #edecff;
+    color: #191765;
+    transform: scale(1.1);
+    
+  }
+  
 
   .menu-section {
     flex-direction: column;
@@ -444,7 +457,7 @@
 
   .circle1 {
     position: absolute;
-    width: 20vh;
+    width: 10vw;
     height: 20vh;
     left: 69px;
     top: 237px;
@@ -454,7 +467,7 @@
 
   .circle2 {
     position: absolute;
-    width: 20vh;
+    width: 10vw;
     height: 20vh;
     left: 1350px;
     top: 546px;
@@ -490,7 +503,7 @@
 
   .content-section {
     width: 50%;
-    height: 170px;
+    height: 25vh;
     font-style: normal;
     font-family: Roboto, sans-serif;
     font-weight: 400;
@@ -517,7 +530,7 @@
   }
 
   .borderFull {
-    width: 180vh;
+    width: 82vw;
   }
 
   .borderSection {
@@ -563,6 +576,10 @@
     gap: 5vh;
     padding-top: 18px;
   }
+  .social-media-icons li :hover{
+    transform:scale(1.2);
+    border: 1px;
+  }
 
   .mediaAndWork {
     display: flex;
@@ -595,7 +612,7 @@
 
   .myRecentWork {
     color: #9490ff;
-    padding-left: 15vh;
+    padding-left: 18.5vh;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -627,9 +644,10 @@
 
   .ellipse {
     position: absolute;
-    width: 12vh;
+    width: 6vw;
     height: 100vh;
-    top: 180%;
+    top: 150%;
+    left: -132px;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
@@ -637,7 +655,7 @@
 
   .ellipse1 {
     position: absolute;
-    width: 18vh;
+    width: 9vw;
     height: 9vh;
     left: 90%;
     top: 265vh;
@@ -648,7 +666,7 @@
 
   .ellipse2 {
     position: absolute;
-    width: 14vw;
+    width: 7vw;
     height: 15vh;
     left: -41px;
     top: 380vh;
@@ -668,13 +686,13 @@
   }
 
   .imgPlaceholder {
-    width: 110vh;
+    width: 50vw;
     height: 59vh;
     background: linear-gradient(0deg, #fff, #fff);
   }
 
   .imgPlaceholder1 {
-    width: 110vh;
+    width: 50vw;
     height: 59vh;
     background: linear-gradient(0deg, #fff, #fff);
     flex: none;
@@ -730,7 +748,7 @@
   }
 
   .supportingText {
-    width: 65vh;
+    width: 32vw;
     height: 25vh;
     font-style: normal;
     font-weight: 400;
@@ -851,7 +869,7 @@
     height: 7vh;
     margin-top: 20px;
     margin-bottom: 2px;
-    width: 70vh;
+    width: 35vw;
     padding-left: 1vh;
   }
 
@@ -890,7 +908,7 @@
   .textarea {
     margin-top: 20px;
     background: #fff;
-    width: 70vh;
+    width: 35vw;
     padding-left: 1vh;
     padding-top: 3vh;
   }
@@ -931,6 +949,7 @@
 
   button:hover {
     background: #2b2969;
+    transition: all 0.5s ease-out;
   }
 
   button:active {
