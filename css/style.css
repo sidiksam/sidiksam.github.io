@@ -569,6 +569,10 @@
     gap: 5vh;
     padding-top: 18px;
   }
+  .social-media-icons li :hover{
+    transform:scale(1.2);
+    border: 1px;
+  }
 
   .mediaAndWork {
     display: flex;
