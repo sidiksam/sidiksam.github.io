@@ -79,8 +79,8 @@
     font-style: normal;
     font-family: "Roboto", sans-serif;
   }
-  
-  .content{
+
+  .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +154,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 52px;
-    
   }
 
   .skill {
@@ -423,9 +422,21 @@
     color: #fff;
   }
 
+
   .navMenu {
     display: flex;
     gap: 30px;
+  }
+
+  .navMenu :hover {
+    background: #edecff;
+    color: #191765;
+    transform: scale(1.1);
+  }
+
+  .navMenu img:hover {
+    background: #191765;
+    transform: scale(1.1);
   }
 
   .navMenu a {
@@ -568,6 +579,11 @@
     list-style: none;
     gap: 5vh;
     padding-top: 18px;
+  }
+
+  .social-media-icons li :hover {
+    transform: scale(1.2);
+    border: 1px;
   }
 
   .mediaAndWork {
